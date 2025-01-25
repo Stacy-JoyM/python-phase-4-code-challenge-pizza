@@ -77,6 +77,8 @@ export FLASK_APP=server/app.py
 flask db init
 flask db migrate
 flask db upgrade head
+
+to delete migration : rm -rf migrations
 ```
 
 Now you can implement the relationships as shown in the ER Diagram:
